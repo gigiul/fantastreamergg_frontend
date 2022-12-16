@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This is a training repo where I recode the frontend of the site Fantastreamer.gg
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
