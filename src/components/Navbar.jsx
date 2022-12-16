@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className='flex justify-between'>
           {/*<img src={Logo} alt='logo' width={100} />*/}
           <h1>FANTASTREAMER</h1>
-        <ul className='md:flex flex-row gap-3 cursor-pointer hidden items-centerq'>
+        <ul className='md:flex flex-row gap-3 cursor-pointer hidden items-center'>
             <li>Home</li>
             <li>Creator Program</li>
             <li>Analytics</li>
