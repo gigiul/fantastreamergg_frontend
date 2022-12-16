@@ -7,7 +7,7 @@ import Apple from '../assets/apple.png'
 
 const Intro = () => {
   return (
-    <div className='w-full md:pt-32 pt-16 px-16 '>
+    <div className='w-full md:pt-32 pt-16 px-8 '>
         <div className='flex flex-col-reverse md:flex-row justify-center items-center gap-4'>
             <div className='flex flex-col max-w-lg justify-center items-center md:items-start text-center md:text-left'>
                 <img src={Logo} alt='logo' width={200}/>
@@ -20,7 +20,7 @@ const Intro = () => {
                 <img src={Blur} alt='blur' width={140} />
             </div>
         </div>
-        <div className='text-center md:pt-16 pt-8'>
+        <div className='text-center md:pt-8 pt-4'>
             <p>A breve disponibile su:</p>
             <div className='flex items-center justify-center'>
                 <img src={Google} alt="/google" className='' width={140} />

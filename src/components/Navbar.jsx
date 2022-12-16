@@ -24,10 +24,11 @@ const Navbar = () => {
 
   return (
     <div className='w-full'>
-      <div className=' mx-8 mt-8 font-semibold '>
+      <div className='w-full h-full pt-8 px-8 '>
         <div className='flex justify-between'>
-          <img src={Logo} alt='logo' width={100} />
-        <ul className='flex flex-row gap-3 cursor-pointer md:visible invisible  '>
+          {/*<img src={Logo} alt='logo' width={100} />*/}
+          <h1>FANTASTREAMER</h1>
+        <ul className='md:flex flex-row gap-3 cursor-pointer hidden items-centerq'>
             <li>Home</li>
             <li>Creator Program</li>
             <li>Analytics</li>
@@ -40,22 +41,22 @@ const Navbar = () => {
           {!menu ? 
             ( 
               <div>
-                <Bars3Icon onClick={handleMenu} className='w-5' />
+                <Bars3Icon onClick={handleMenu} className='w-5 cursor-pointer' />
               </div>
 
             ) 
             :
             (
               <div>
-                <XMarkIcon onClick={handleMenu} className='w-5' />
+                <XMarkIcon onClick={handleMenu} className='w-5 cursor-pointer' />
               </div>
             )
           }
         </div>
         </div>
         {menu ? 
-            (<div className='backdrop-blur-md w-full h-full px-8 absolute justify-between cursor-pointer'>
-            <ul className='flex flex-col gap-3 cursor-pointer justify-center items-center pt-16 text-3xl'>
+            (<div className='backdrop-blur-md  cursor-pointer'>
+            <ul className='flex flex-col gap-3 w-full bg-white text-black cursor-pointer absolute justify-center items-center py-16 text-3xl'>
               <li className='border-b-2'>Home</li>
               <li className='border-b-2'>Creator Program</li>
               <li className='border-b-2'>Analytics</li>
