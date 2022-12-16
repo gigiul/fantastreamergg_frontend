@@ -9,4 +9,14 @@ body {
   background-color: black;
   /*font family Manrope*/
   font-family: 'Manrope', sans-serif;
+
+}
+
+/* custom h3 text color */
+h3 {
+  @apply text-gray-400;
+}
+
+h2 {
+  @apply font-semibold text-sm md:text-xl;
 }
