@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.dd8057b7.css",
+    "main.js": "/react-gh-pages/static/js/main.bbfa790e.js",
+    "static/media/squadra.png": "/react-gh-pages/static/media/squadra.67e99c2c3ce2d38aba55.png",
+    "static/media/Tor5.png": "/react-gh-pages/static/media/Tor5.54a0e9c848d0e3248f1b.png",
+    "static/media/Tor4.png": "/react-gh-pages/static/media/Tor4.9d0451f7712d5186219b.png",
+    "static/media/Tor6.png": "/react-gh-pages/static/media/Tor6.b418982809ae29f09418.png",
+    "static/media/Tor1.png": "/react-gh-pages/static/media/Tor1.10d6fd96262b7de8034e.png",
+    "static/media/Tor3.png": "/react-gh-pages/static/media/Tor3.ee7aabd047f8632b4d2e.png",
+    "static/media/Tor2.png": "/react-gh-pages/static/media/Tor2.89051ec4309d74981993.png",
+    "static/media/blur4.png": "/react-gh-pages/static/media/blur4.d8d1b2534c67265a4191.png",
+    "static/media/marza3.png": "/react-gh-pages/static/media/marza3.cc3d60305294e2388426.png",
+    "static/media/apple.png": "/react-gh-pages/static/media/apple.5c920ffe419d3bf6da66.png",
+    "static/media/google.png": "/react-gh-pages/static/media/google.629871a995c0ee21fe83.png",
+    "static/media/logo.png": "/react-gh-pages/static/media/logo.ba352b508d29c74d49de.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.dd8057b7.css.map": "/react-gh-pages/static/css/main.dd8057b7.css.map",
+    "main.bbfa790e.js.map": "/react-gh-pages/static/js/main.bbfa790e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd8057b7.css",
+    "static/js/main.bbfa790e.js"
+  ]
+}
