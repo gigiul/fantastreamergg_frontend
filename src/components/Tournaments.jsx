@@ -9,15 +9,18 @@ import Clock from '../assets/clock.png'
 
 const Tournaments = () => {
   return (
-    <div className='md:pt-32 pt-16 md:px-32 px-8'>
+    <div className='md:pt-32 pt-16 md:mx-32 px-8 '>
         <div className='grid md:grid-cols-2 grid-rows-1 bg-white rounded-3xl text-black'>
-            <div className='grid grid-cols-3 gap-2 p-8 '>
+            <div className='flex justify-center items-center'>
+
+            <div className='grid grid-cols-3 gap-x-16 gap-y-4 p-8 '>
                 <img src={Tor1} alt='tor1' width={60} />
                 <img src={Tor2} alt='tor2' width={60} />
                 <img src={Tor3} alt='tor3' width={60} />
                 <img src={Tor4} alt='tor4' width={60} />
                 <img src={Tor5} alt='tor5' width={60} />
                 <img src={Tor6} alt='tor6' width={60} />
+            </div>
             </div>
             <div className='flex flex-col items-center justify-center p-8'>
                 <h1 className='text-3xl'>Partecipa ai Tornei</h1>

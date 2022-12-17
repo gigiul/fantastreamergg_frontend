@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
         </div>
         {menu ? 
-            (<div className='backdrop-blur-md  cursor-pointer'>
+            (<div className='backdrop-blur-md cursor-pointer'>
             <ul className='flex flex-col gap-3 w-full bg-white text-black cursor-pointer absolute justify-center items-center py-16 text-3xl'>
               <li className='border-b-2'>Home</li>
               <li className='border-b-2'>Creator Program</li>
