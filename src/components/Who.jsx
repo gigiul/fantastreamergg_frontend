@@ -1,5 +1,11 @@
 import React from 'react'
 import S1 from '../assets/1.png'
+import S2 from '../assets/2.png'
+import S3 from '../assets/3.png'
+import S4 from '../assets/4.jpg'
+import S5 from '../assets/5.png'
+import S6 from '../assets/6.png'
+
 
 const Who = () => {
   return (
@@ -22,7 +28,7 @@ const Who = () => {
         </div>
         
         {/*Scroll bar list */}
-        <div className='pt-12 mx-auto w-[22rem] md: sm:w-[36rem] max-w-5xl md:w-full'>
+        <div className='pt-12 mx-auto w-[22rem] sm:w-[36rem] max-w-5xl md:w-full'>
             <ul className='flex gap-4 p-4 overflow-x-auto whitespace-nowrap no-scrollbar'>
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
@@ -32,7 +38,27 @@ const Who = () => {
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
                     <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
+                    src={S2} alt="S1" width={70} />
+                </li>
+                <li onClick={()=> window.open("https://twitch.com", "_blank")}
+                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
+                    <img className='rounded-xl'
+                    src={S3} alt="S1" width={70} />
+                </li>
+                <li onClick={()=> window.open("https://twitch.com", "_blank")}
+                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
+                    <img className='rounded-xl'
+                    src={S4} alt="S1" width={70} />
+                </li>
+                <li onClick={()=> window.open("https://twitch.com", "_blank")}
+                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
+                    <img className='rounded-xl'
+                    src={S5} alt="S1" width={70} />
+                </li>
+                <li onClick={()=> window.open("https://twitch.com", "_blank")}
+                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
+                    <img className='rounded-xl'
+                    src={S6} alt="S1" width={70} />
                 </li>
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
@@ -42,42 +68,22 @@ const Who = () => {
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
                     <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
+                    src={S2} alt="S1" width={70} />
                 </li>
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
                     <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
+                    src={S3} alt="S1" width={70} />
                 </li>
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
                     <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
+                    src={S4} alt="S1" width={70} />
                 </li>
                 <li onClick={()=> window.open("https://twitch.com", "_blank")}
                     className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
                     <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
-                </li>
-                <li onClick={()=> window.open("https://twitch.com", "_blank")}
-                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
-                    <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
-                </li>
-                <li onClick={()=> window.open("https://twitch.com", "_blank")}
-                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
-                    <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
-                </li>
-                <li onClick={()=> window.open("https://twitch.com", "_blank")}
-                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
-                    <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
-                </li>
-                <li onClick={()=> window.open("https://twitch.com", "_blank")}
-                    className='flex-shrink-0 border-[3px] border-white rounded-xl  cursor-pointer hover:scale-105'>
-                    <img className='rounded-xl'
-                    src={S1} alt="S1" width={70} />
+                    src={S5} alt="S1" width={70} />
                 </li>
                                         
             </ul>
