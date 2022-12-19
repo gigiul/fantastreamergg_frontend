@@ -25,7 +25,7 @@ const Cards = () => {
         </div>
         <div className='md:pt-24 pt- flex items-center justify-center'>
             <img className='md:hidden pt-16' src={Vinci} alt='vinci' width={800} />
-            <img className='hidden md:flex' src={VinciB} alt='vincib' width={300} />
+            <img className='hidden md:flex' src={VinciB} alt='vincib' width={800} />
         </div>
     </div>
   )

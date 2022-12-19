@@ -26,8 +26,8 @@ const Navbar = () => {
     <div className='w-full'>
       <div className='w-full h-full pt-8 px-8 '>
         <div className='flex justify-between'>
-          {/*<img src={Logo} alt='logo' width={100} />*/}
-          <h1>FANTASTREAMER</h1>
+          <img src={Logo} alt='logo' width={150} />
+          {/*<h1>FANTASTREAMER</h1>*/}
         <ul className='md:flex flex-row gap-3 cursor-pointer hidden items-center'>
             <li>Home</li>
             <li>Creator Program</li>
@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
         </div>
         {menu ? 
-            (<div className='backdrop-blur-md cursor-pointer'>
+            (<div className='backdrop-blur-md  cursor-pointer'>
             <ul className='flex flex-col gap-3 w-full bg-white text-black cursor-pointer absolute justify-center items-center py-16 text-3xl'>
               <li className='border-b-2'>Home</li>
               <li className='border-b-2'>Creator Program</li>
