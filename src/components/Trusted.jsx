@@ -10,31 +10,31 @@ const Trusted = () => {
             <h1>Trusted by</h1>
         </div>
         <div className='grid md:grid-cols-3 grid-cols-2 items-center justify-center content-center'>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={TumbLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={MarzaLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={70} src={EvoxLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={MarzaLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
-                <img className='' width={90} src={EvoxLogo} alt="" />
+            <div className='flex items-center justify-center bg-cover'>
+                <img className='' width={70} src={EvoxLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
+                <img className='' width={70} src={EvoxLogo} alt="" />
+            </div>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={TumbLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
-                <img className='' width={90} src={EvoxLogo} alt="" />
-            </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={MarzaLogo} alt="" />
             </div>
-            <div className='flex items-center justify-center'>
+            <div className='flex items-center justify-center bg-cover'>
                 <img className='' width={150} src={TumbLogo} alt="" />
             </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "name": "fantastreamer",
   "version": "0.1.0",
-  "homepage": "https://gigiul.github.io/react-gh-pages",
+  "homepage": "https://gigiul.github.io/fantastreamergg_frontend",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.0.13",
@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
