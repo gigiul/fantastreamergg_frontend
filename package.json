@@ -1,8 +1,8 @@
 {
   "name": "fantastreamer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://gigiul.github.io/fantastreamergg_frontend",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@heroicons/react": "^2.0.13",
     "@testing-library/jest-dom": "^5.14.1",
