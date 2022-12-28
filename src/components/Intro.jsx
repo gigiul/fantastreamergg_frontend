@@ -7,7 +7,7 @@ import Apple from '../assets/apple.png'
 
 const Intro = () => {
   return (
-    <div className='w-full md:pt-32 pt-16 px-8 '>
+    <div className='md:pt-32 pt-16 px-8 '>
         <div className='flex flex-col-reverse md:flex-row justify-center items-center gap-4'>
             <div className='flex flex-col max-w-lg justify-center items-center md:items-start text-center md:text-left'>
                 <img src={Logo} alt='logo' width={200}/>
@@ -15,7 +15,7 @@ const Intro = () => {
                 <h3>Il nuovo gioco ispirato al fantacalcio, applicato al mondo del videogames streaming.</h3>
                 <span><a className='text-[#FEBB00]' href='/preregister'>Pre registrati</a></span>
             </div>
-            <div className='flex items-center'>
+            <div className='flex items-center shrink-0'>
                 <img src={Marza} alt='marza' width={120} className='' />
                 <img src={Blur} alt='blur' width={140} />
             </div>
