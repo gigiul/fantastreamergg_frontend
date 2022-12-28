@@ -4,6 +4,7 @@ import { US } from 'country-flag-icons/react/3x2'
 import { IT } from 'country-flag-icons/react/3x2'
 import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
 import {Link, useNavigate} from 'react-router-dom'
+import axios from 'axios'
 
 const Navbar = () => {
   const [country, setCountry] = useState(true)
@@ -27,9 +28,6 @@ const Navbar = () => {
   function handleWheel(event) {
     window.scrollTo(0, 0);
   }
-
-  console.log("language", language);
-  console.log("country", country);
 
   return (
       <div className=' pt-8 px-8 '>
