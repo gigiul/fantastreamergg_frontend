@@ -24,6 +24,10 @@ const Navbar = () => {
     setMenu(!menu)
   }
 
+  function handleWheel(event) {
+    window.scrollTo(0, 0);
+  }
+
   console.log("language", language);
   console.log("country", country);
 
@@ -47,26 +51,27 @@ const Navbar = () => {
           {!menu ? 
             ( 
               <div>
-                <Bars3Icon onClick={handleMenu} className='w-5 cursor-pointer' />
+                <Bars3Icon onClick={handleMenu} className=' w-5 cursor-pointer' />
               </div>
 
             ) 
             :
             (
               <div>
-                <XMarkIcon onClick={handleMenu} className='w-5 cursor-pointer' />
+                <XMarkIcon onClick={handleMenu} className='text-black z-20 w-5 cursor-pointer fixed' />
               </div>
             )
           }
         </div>
         </div>
         {menu ? 
-            (<div className='backdrop-blur-md  cursor-pointer'>
-            <ul className='flex flex-col gap-3 w-full bg-white text-black cursor-pointer absolute justify-center items-center py-16 text-3xl'>
-              <li className='border-b-2'>Home</li>
-              <li className='border-b-2'>Creator Program</li>
-              <li className='border-b-2'>Analytics</li>
-              <li className='border-b-2'>Login</li>
+            (<div className={ menu ? ('ease-in duration-500 fixed text-gray-300 left-0 top-0 w-full h-screen bg-white px-4 py-7 flex-col z-10 ')
+              : ('absolute top-0 h-screen left-[-100%] ease-in duration-500 z-10')}>
+            <ul onWheel={handleWheel} className='flex flex-col gap-3 w-full h-screen text-black cursor-pointer justify-center fixed items-center text-3xl overflow-hidden '>
+            <li className='border-b-2'><Link to='/'>Home</Link></li>
+            <li className='border-b-2'><Link to='/creator'>Creator Program</Link></li>
+            <li className='border-b-2'><Link to='/analytics'>Analytics</Link></li>
+            <li className='border-b-2'><Link to='/login'>Login</Link></li>
               {country ? (<US onClick={handleCountry} title="United States" width={30} className=""/>)
               :
               (<IT onClick={handleCountry} title="Italy" width={30} className=""/>)}
