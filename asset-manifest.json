@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/fantastreamergg_frontend/static/css/main.b6cbd1d8.css",
-    "main.js": "/fantastreamergg_frontend/static/js/main.1b3b9524.js",
+    "main.js": "/fantastreamergg_frontend/static/js/main.ca5ac126.js",
     "static/media/score.png": "/fantastreamergg_frontend/static/media/score.47c871e8b3328f3ac139.png",
     "static/media/blur_hand.svg": "/fantastreamergg_frontend/static/media/blur_hand.583501d48edbc0cd6af5ecb4ec9bf0c2.svg",
     "static/media/squadra.png": "/fantastreamergg_frontend/static/media/squadra.67e99c2c3ce2d38aba55.png",
@@ -39,10 +39,10 @@
     "static/media/common_stars.svg": "/fantastreamergg_frontend/static/media/common_stars.30dc735a762a5ed3bfc27e3bba1a6a46.svg",
     "index.html": "/fantastreamergg_frontend/index.html",
     "main.b6cbd1d8.css.map": "/fantastreamergg_frontend/static/css/main.b6cbd1d8.css.map",
-    "main.1b3b9524.js.map": "/fantastreamergg_frontend/static/js/main.1b3b9524.js.map"
+    "main.ca5ac126.js.map": "/fantastreamergg_frontend/static/js/main.ca5ac126.js.map"
   },
   "entrypoints": [
     "static/css/main.b6cbd1d8.css",
-    "static/js/main.1b3b9524.js"
+    "static/js/main.ca5ac126.js"
   ]
 }
