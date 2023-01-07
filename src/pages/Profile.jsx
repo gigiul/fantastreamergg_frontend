@@ -7,7 +7,7 @@ const Profile = () => {
     Axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 
     const getPrivate = () => 
-    Axios.get('http://localhost:3000/profile')
+    Axios.get('http://localhost:5000/profile')
     .then(response => {
          console.log(response.data)
     })

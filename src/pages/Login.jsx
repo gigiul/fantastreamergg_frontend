@@ -15,7 +15,7 @@ const Login = () => {
     //post request for signup
     const postDataSignup = (e) => {
         e.preventDefault();
-        Axios.post('http://localhost:3000/user', {
+        Axios.post('http://localhost:5000/user', {
             name,
             email,
             password
@@ -27,7 +27,7 @@ const Login = () => {
     //post request for signin
     async function postDataSignin(e) {
         e.preventDefault();
-        await Axios.post('http://localhost:3000/auth/login', {
+        await Axios.post('http://localhost:5000/auth/login', {
             email,
             password
         }).then(res => {
@@ -40,7 +40,7 @@ const Login = () => {
         const token = localStorage.getItem('jwtToken');
         Axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
         
-        await Axios.get('http://localhost:3000/profile')
+        await Axios.get('http://localhost:5000/profile')
         .then(response => {
              console.log(response.data.message)
         })

@@ -16,13 +16,13 @@ const Api = () => {
 
 
     useEffect(() => {
-        Axios.get('http://localhost:3000/user')
+        Axios.get('http://localhost:5000/user')
         .then(res => {console.log(res.data); setData(res.data)})
         .catch(err => console.log(err));
     }, []);
 
     const PostDelete = (() => {
-        Axios.delete(`http://localhost:3000/user/${inputValue}`)
+        Axios.delete(`http://localhost:5000/user/${inputValue}`)
         .then(res => {console.log(res.data); setData(res.data)})
         .catch(err => console.log(err));
 
