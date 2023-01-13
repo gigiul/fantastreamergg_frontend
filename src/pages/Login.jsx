@@ -13,7 +13,7 @@ const Login = () => {
     const navigate = useNavigate();
 
     //post request for signup
-    const postDataSignup = (e) => {
+/*     const postDataSignup = (e) => {
         e.preventDefault();
         Axios.post('http://localhost:5000/user', {
             name,
@@ -22,10 +22,10 @@ const Login = () => {
         }).then(res => console.log('posting data', res)).catch(err => console.log(err));
         //navigate('/profile');
         window.location.reload();
-    }
+    } */
 
     //post request for signin
-    async function postDataSignin(e) {
+/*     async function postDataSignin(e) {
         e.preventDefault();
         await Axios.post('http://localhost:5000/auth/login', {
             email,
@@ -48,7 +48,7 @@ const Login = () => {
 
         navigate('/profile')
         
-    }
+    } */
 
 
     //state for signin & signup form    
@@ -89,7 +89,7 @@ const Login = () => {
                     <h1 className='text-4xl uppercase'>Sign In</h1>
                     <input onChange={(e) => setEmail(e.target.value)} type='text' value={email} placeholder='Email' className='bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900' />
                     <input onChange={(e) => setPassword(e.target.value)} type='password' value={password} placeholder='Password' className='bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900' />
-                    <button onClick={postDataSignin} className='border-gray-700 border-2 bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900'>Sign In</button>
+                    <button /* onClick={postDataSignin} */ className='border-gray-700 border-2 bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900'>Sign In</button>
                     
                 </form>
                 <div className='flex justify-end pt-1'>
@@ -107,7 +107,7 @@ const Login = () => {
                     <input onChange={(e) => setName(e.target.value)} type='text' value={name} placeholder='Name' className='bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900' />
                     <input onChange={(e) => setEmail(e.target.value)} type='text' value={email} placeholder='Email' className='bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900' />
                     <input onChange={(e) => setPassword(e.target.value)} type='password' value={password} placeholder='Password' className='bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900' />
-                    <button onClick={postDataSignup} className='border-gray-700 border-2 bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900'>Sign Up</button>
+                    <button /* onClick={postDataSignup} */ className='border-gray-700 border-2 bg-gray-800 text-white w-80 h-10 rounded-md mt-4 hover:bg-gray-900'>Sign Up</button>
                     
                 </form>
                 <div className='flex justify-end pt-1'>
